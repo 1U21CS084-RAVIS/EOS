@@ -1,0 +1,90 @@
+@media only screen and (max-width: 450px) {
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: linear-gradient(to right,violet,black);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 150%;
+    
+}
+footer {
+    background: linear-gradient(to right, violet,black);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 160%;
+}
+.container {
+    display: flex;
+}
+/* .sidebar {
+
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 200px;
+    margin-left: 10px;
+    margin-right:10px;
+
+} */
+main{
+    background-color: lightgreen;
+    margin-left: -125.5px;
+
+}
+.main {
+    flex-grow: 1;
+    /* padding: 10px; */
+}
+.right-sidebar {
+    
+    background-color: #f4f4f4;
+    padding: 15px;
+    width: 200px;
+    margin-right: 20px;
+    
+    
+}
+nav {
+    width: 160%;
+    background-color:red;
+    color: black;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+nav a:hover {
+    background-color:black;
+    color: aqua;
+}
+.floated-image {
+    float: left;
+    margin: 0 0 10px 10px;
+    width: 190px;
+    height: auto;
+    border-radius: 20%;
+    padding: 14px;
+}
+.clearfix {
+    clear: both;
+}
+.character-entity {
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: blue;
+}
+}

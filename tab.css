@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1024px) {
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background: linear-gradient(to right,violet,black);
+        color: white;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    footer {
+        background: linear-gradient(to right, violet,black);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+    }
+    .container {
+        display: flex;
+    }
+    .sidebar {
+        background-color: #f4f4f4;
+        padding: 20px 20px;
+        width: 200px;
+        margin-left: -50px;
+    
+    }
+    main{
+        background-color: lightgreen;
+    }
+    .main {
+        flex-grow: 1;
+        padding: 10px;
+    }
+    .right-sidebar {
+        
+        background-color: #f4f4f4;
+        padding: 15px;
+        width: 250px;
+        
+        
+    }
+    nav {
+        background-color:red;
+        color: black;
+        padding: 10px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    nav a:hover {
+        background-color:black;
+        color: aqua;
+    }
+    .floated-image {
+        float: left;
+        margin: 0 0 10px 10px;
+        width: 190px;
+        height: auto;
+        border-radius: 20%;
+        padding: 14px;
+    }
+    .clearfix {
+        clear: both;
+    }
+    .character-entity {
+        display: inline;
+    }
+    a{
+        text-decoration: none;
+        color: red;
+    }
+    a:hover{
+        color: blue;
+    }
+    }
